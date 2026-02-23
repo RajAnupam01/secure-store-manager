@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# 🔐 Secure Storage Manager (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple React Native app that demonstrates how to securely store, retrieve, and delete sensitive data using Expo SecureStore.
 
-## Get started
+This project was built to understand secure local storage, component architecture, and data flow in React Native applications.
 
-1. Install dependencies
 
-   ```bash
-   npm install
+## 🧠 Key Concepts Learned
+
+1. Secure local storage in mobile apps
+2. Component-based architecture
+3. Local vs shared state management
+4. Asynchronous data handling
+5. CRUD operations with device storage
+6. UI separation by feature responsibility
+
+## ✨ Features
+- Save key–value pairs securely on device
+- Retrieve stored values using a key
+- Delete stored values securely
+- Tab-based UI (Create / Manage)
+- Input validation and user feedback
+- Clean component separation
+
+## ⚙️ Installation
+
+1. Clone repository
+
+   ```
+   git clone <your-repo-url>
+   cd <project-folder>
    ```
 
-2. Start the app
+2. Install dependencies
 
-   ```bash
+   ```
+   npm install
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Install SecureStore
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```
+   npx expo install expo-secure-store
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## 📱 How It Works
+1. Save Data
+User enters a key and value → stored securely using SecureStore.
 
-When you're ready, run:
+2. Retrieve Data
+User enters a key → app fetches stored value.
 
-```bash
-npm run reset-project
-```
+3. Delete Data
+User enters a key → stored value is removed permanently.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+### 👨‍💻 Author
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Built as a learning project for mastering React Native storage and component architecture.
