@@ -58,3 +58,7 @@ User enters a key → stored value is removed permanently.
 ### 👨‍💻 Author
 
 Built as a learning project for mastering React Native storage and component architecture.
+
+### Here is the app in action 
+
+https://www.linkedin.com/posts/anupam-raj-159aa93aa_while-learning-about-secure-storage-in-activity-7435564627263987712-v69A?utm_source=share&utm_medium=member_android&rcm=ACoAAGQvf5UBOfSWvxNzcVDWvuenVySyGghg8Bg
